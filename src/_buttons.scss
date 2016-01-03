@@ -1,17 +1,36 @@
 .btn {
   background-color: $color-secondary;
-  color: #000;
-  padding: 0.65em 0.9em;
+  border: 1px solid $color-secondary;
+  color: $color-secondary-contrast;
+  padding: $padding-input;
   text-decoration: none;
+  font: inherit;
   font-weight: 500;
   border-radius: $radius;
   transition: background-color 80ms ease-in-out;
   &:hover { background-color: $color-secondary-alt; }
   display: block;
+  cursor: pointer;
+  &:focus {
+    outline: 0;
+    border-color: $color-outline;
+    box-shadow: 0 0 0 1px $color-outline;
+  }
+  // height: 300px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  line-height: 1;
+  white-space: nowrap;
+  height: $height-input;
+  display: flex;
+  align-items: center;
+  justify-centent: center;
 }
 
 .btn-primary {
   @extend .btn;
+  border-color: $color-primary;
   background-color: $color-primary;
+  color: $color-primary-contrast;
   &:hover { background-color: $color-primary-alt; }
 }

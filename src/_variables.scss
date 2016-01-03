@@ -1,6 +1,12 @@
-$color-primary: #FCBB4A;
-$color-primary-alt: lighten($color-primary, 5);
+$color-primary: #4a8bfc;
+$color-primary-alt: lighten($color-primary, 5); // highlight color
+$color-primary-contrast: #fff; // for text on bg
 $color-secondary: #ddd;
-$color-secondary-alt: lighten($color-secondary, 3);
+$color-secondary-alt: lighten($color-secondary, 3); // highlight color
+$color-secondary-contrast: #000; // for text on bg
+$color-outline: #45AAFF;
 
 $radius: 3px;
+$padding-input: 0 0.9em;
+$height-input: 45px;
+
