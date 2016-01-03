@@ -1,0 +1,17 @@
+.btn {
+  background-color: $color-secondary;
+  color: #000;
+  padding: 0.65em 0.9em;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: $radius;
+  transition: background-color 80ms ease-in-out;
+  &:hover { background-color: $color-secondary-alt; }
+  display: block;
+}
+
+.btn-primary {
+  @extend .btn;
+  background-color: $color-primary;
+  &:hover { background-color: $color-primary-alt; }
+}

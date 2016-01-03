@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "styleblocks.css",
+	"sources": [
+		"../src/styleblocks.scss",
+		"../src/_variables.scss",
+		"../src/_buttons.scss"
+	],
+	"mappings": "AEAA,IAAI,EAYJ,YAAY,CAZP;EACH,gBAAgB,EDCA,IAAI;ECApB,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,YAAa;EACtB,eAAe,EAAE,IAAK;EACtB,WAAW,EAAE,GAAI;EACjB,aAAa,EDDN,GAAG;ECEV,UAAU,EAAE,iCAAkC;EAE9C,OAAO,EAAE,KAAM;CAChB;;AAVD,IAAI,AAQD,MAAM,EAIT,YAAY,AAJT,MAAM,CAAC;EAAE,gBAAgB,EDLN,OAAO;CCKyB;;AAItD,YAAY,CAAC;EAEX,gBAAgB,EDdF,OAAO;CCgBtB;;AAJD,YAAY,AAGT,MAAM,CAAC;EAAE,gBAAgB,EDdR,OAAO;CCcyB",
+	"names": []
+}
