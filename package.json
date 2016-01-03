@@ -1,0 +1,23 @@
+{
+  "name": "styleblocks",
+  "version": "0.1.1",
+  "description": "CSS layout library",
+  "scripts": {
+    "build": "node-sass src/ -o dist/ --source-map dist --output-style expanded",
+    "watch": "node-sass --watch src/ -o dist/ --source-map dist --output-style expanded",
+    "test": "npm run build && bash -c '[[ $(git status ./dist --porcelain 2>/dev/null) == \"\" ]]'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lord/flexblocks.git"
+  },
+  "author": "Robert Lord",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/lord/styleblocks/issues"
+  },
+  "homepage": "https://github.com/lord/styleblocks",
+  "devDependencies": {
+    "node-sass": "^3.2.0"
+  }
+}
