@@ -10,3 +10,18 @@ $radius: 3px;
 $padding-input: 0 0.9em;
 $height-input: 45px;
 
+@mixin std-input {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  padding: $padding-input;
+  transition: all 90ms ease-in-out;
+  box-shadow: 0 0 0 1px transparent;
+  font: inherit;
+  border-radius: $radius;
+  &:focus {
+    outline: 0;
+    border-color: $color-outline;
+    box-shadow: 0 0 0 1px $color-outline;
+  }
+}
+

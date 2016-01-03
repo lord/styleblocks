@@ -1,22 +1,14 @@
 .input-text {
-  padding: $padding-input;
-  font: inherit;
+  @include std-input;
+  height: $height-input;
   border: 1px solid $color-secondary;
   border-radius: $radius;
   background-color: #fff;
-  height: $height-input;
-  box-sizing: border-box;
-  &:focus {
-    outline: 0;
-    border-color: $color-outline;
-    box-shadow: 0 0 0 1px $color-outline;
-  }
-  &::-moz-focus-inner {
-    border: 0; 
-    padding: 0; 
-  }
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-centent: center;
+}
+
+.input-textarea {
+  @include std-input;
+  border: 1px solid $color-secondary;
+  border-radius: $radius;
+  background-color: #fff;
 }
