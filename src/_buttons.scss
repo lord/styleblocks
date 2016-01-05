@@ -2,6 +2,7 @@
   @include std-input;
   background-color: $color-secondary;
   &:hover { background-color: $color-secondary-alt; }
+  &:active { background-color: $color-secondary; }
   border-color: $color-secondary;
   color: $color-secondary-contrast;
   text-decoration: none;
@@ -28,4 +29,5 @@
   background-color: $color-primary;
   color: $color-primary-contrast;
   &:hover { background-color: $color-primary-alt; }
+  &:active { background-color: $color-primary; }
 }

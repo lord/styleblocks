@@ -7,14 +7,14 @@ $color-secondary-contrast: #000; // for text on bg
 $color-outline: #45AAFF;
 
 $radius: 3px;
-$padding-input: 0 0.9em;
+$padding-input: 0.85em;
 $height-input: 2.75em;
 
 @mixin std-input {
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: $padding-input;
-  transition: all 90ms ease-in-out;
+  padding: 0 $padding-input;
+  transition: all 90ms linear;
   box-shadow: 0 0 0 1px transparent;
   font: inherit;
   border-radius: $radius;

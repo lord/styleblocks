@@ -1,8 +1,8 @@
 .btn, .btn-primary {
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: 0 0.9em;
-  transition: all 90ms ease-in-out;
+  padding: 0 0.85em;
+  transition: all 90ms linear;
   box-shadow: 0 0 0 1px transparent;
   font: inherit;
   border-radius: 3px;
@@ -31,6 +31,10 @@
   background-color: #e5e5e5;
 }
 
+.btn:active, .btn-primary:active {
+  background-color: #ddd;
+}
+
 .btn::-moz-focus-inner, .btn-primary::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -46,11 +50,15 @@
   background-color: #639bfc;
 }
 
+.btn-primary:active {
+  background-color: #4a8bfc;
+}
+
 .input-text {
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: 0 0.9em;
-  transition: all 90ms ease-in-out;
+  padding: 0 0.85em;
+  transition: all 90ms linear;
   box-shadow: 0 0 0 1px transparent;
   font: inherit;
   border-radius: 3px;
@@ -69,11 +77,12 @@
 .input-textarea {
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: 0 0.9em;
-  transition: all 90ms ease-in-out;
+  padding: 0 0.85em;
+  transition: all 90ms linear;
   box-shadow: 0 0 0 1px transparent;
   font: inherit;
   border-radius: 3px;
+  padding: 0.68em 0.85em;
   border: 1px solid #ddd;
   border-radius: 3px;
   background-color: #fff;
@@ -83,6 +92,12 @@
   outline: 0;
   border-color: #45AAFF;
   box-shadow: 0 0 0 1px #45AAFF;
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  line-height: 1;
 }
 
 /*# sourceMappingURL=styleblocks.css.map */

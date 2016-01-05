@@ -8,7 +8,14 @@
 
 .input-textarea {
   @include std-input;
+  padding: $padding-input*0.8 $padding-input;
   border: 1px solid $color-secondary;
   border-radius: $radius;
   background-color: #fff;
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  line-height: 1;
 }
