@@ -1,0 +1,23 @@
+body {
+  font-size: 14px;
+}
+
+.main {
+  max-width: 60em;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.header {
+  max-width: 60em;
+  width: 100%;
+  height: 3.5em;
+  color: #fff;
+}
+
+// any block that you want to have padding away from the rest of the stuff
+.content {
+  padding: $padding-content;
+}
+

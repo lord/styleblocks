@@ -9,7 +9,8 @@ $color-outline: #45AAFF;
 $radius: 3px;
 $time: 90ms; // for color changes
 $time-long: 150ms; // for sweeps in and out
-$height-input: 2.75em;
+$height-input: 2.3em;
+$padding-content: 1rem;
 
 @mixin std-input {
   box-sizing: border-box;
