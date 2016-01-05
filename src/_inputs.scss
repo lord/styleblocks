@@ -1,21 +1,31 @@
-.input-text {
+$input-side-padding: 0.8em;
+
+%textboxes {
   @include std-input;
-  height: $height-input;
   border: 1px solid $color-secondary;
-  border-radius: $radius;
   background-color: #fff;
+  padding: 0 $input-side-padding;
+  border-radius: $radius;
+  line-height: 1.7;
+}
+
+.input-text {
+  @extend %textboxes;
+  height: $height-input;
 }
 
 .input-textarea {
-  @include std-input;
-  padding: $padding-input*0.8 $padding-input;
-  border: 1px solid $color-secondary;
-  border-radius: $radius;
-  background-color: #fff;
+  @extend %textboxes;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .input-label {
   display: block;
   font-weight: 600;
   line-height: 1;
+}
+
+.input-label-text {
+  
 }

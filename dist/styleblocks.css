@@ -1,13 +1,12 @@
 .btn, .btn-primary {
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: 0 0.85em;
   transition: all 90ms linear;
   box-shadow: 0 0 0 1px transparent;
   font: inherit;
   border-radius: 3px;
   background-color: #ddd;
-  border-color: #ddd;
+  padding: 0 1.2em;
   color: #000;
   text-decoration: none;
   font-weight: 500;
@@ -41,7 +40,6 @@
 }
 
 .btn-primary {
-  border-color: #4a8bfc;
   background-color: #4a8bfc;
   color: #fff;
 }
@@ -54,44 +52,33 @@
   background-color: #4a8bfc;
 }
 
-.input-text {
+.input-text, .input-textarea {
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: 0 0.85em;
   transition: all 90ms linear;
   box-shadow: 0 0 0 1px transparent;
   font: inherit;
   border-radius: 3px;
-  height: 2.75em;
   border: 1px solid #ddd;
-  border-radius: 3px;
   background-color: #fff;
+  padding: 0 0.8em;
+  border-radius: 3px;
+  line-height: 1.7;
 }
 
-.input-text:focus {
+.input-text:focus, .input-textarea:focus {
   outline: 0;
   border-color: #45AAFF;
   box-shadow: 0 0 0 1px #45AAFF;
+}
+
+.input-text {
+  height: 2.75em;
 }
 
 .input-textarea {
-  box-sizing: border-box;
-  border: 1px solid transparent;
-  padding: 0 0.85em;
-  transition: all 90ms linear;
-  box-shadow: 0 0 0 1px transparent;
-  font: inherit;
-  border-radius: 3px;
-  padding: 0.68em 0.85em;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-.input-textarea:focus {
-  outline: 0;
-  border-color: #45AAFF;
-  box-shadow: 0 0 0 1px #45AAFF;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .input-label {

@@ -1,9 +1,9 @@
 .btn {
   @include std-input;
   background-color: $color-secondary;
+  padding: 0 1.2em;
   &:hover { background-color: $color-secondary-alt; }
   &:active { background-color: $color-secondary; }
-  border-color: $color-secondary;
   color: $color-secondary-contrast;
   text-decoration: none;
   font-weight: 500;
@@ -25,7 +25,6 @@
 
 .btn-primary {
   @extend .btn;
-  border-color: $color-primary;
   background-color: $color-primary;
   color: $color-primary-contrast;
   &:hover { background-color: $color-primary-alt; }
