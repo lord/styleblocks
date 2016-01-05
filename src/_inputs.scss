@@ -1,4 +1,4 @@
-$input-side-padding: 0.8em;
+$input-side-padding: 0.6em;
 
 %textboxes {
   @include std-input;
@@ -16,8 +16,8 @@ $input-side-padding: 0.8em;
 
 .input-textarea {
   @extend %textboxes;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
 .input-label {
@@ -26,6 +26,3 @@ $input-side-padding: 0.8em;
   line-height: 1;
 }
 
-.input-label-text {
-  
-}
